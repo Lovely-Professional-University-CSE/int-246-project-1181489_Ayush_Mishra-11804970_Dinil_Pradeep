@@ -4,3 +4,5 @@ from django.http import HttpResponse
 def home(request):
 	return render(request, 'accounts/main.html')
 
+def project(request):
+	return render(request,'accounts/int246_project.html')
